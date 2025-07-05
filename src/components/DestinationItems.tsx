@@ -70,7 +70,7 @@ const FeaturedDestinations = () => {
             <Card
               sx={{
                 height: "100%",
-                backgroundColor: "#FFD586",
+                backgroundColor: "#E7EFC7",
                 transition: "transform 0.3s ease, box-shadow 0.3s ease",
                 "&:hover": {
                   transform: "scale(1.03)",
