@@ -38,7 +38,7 @@ const Testimonials = () => {
           variant="h4"
           align="center"
           gutterBottom
-          sx={{ fontWeight: "bold", mb: 4 }}
+          sx={{fontFamily: "Dancing Script", fontWeight: "1000", fontSize: "50px", mb: 4 }}
         >
           What Our Travelers Say
         </Typography>

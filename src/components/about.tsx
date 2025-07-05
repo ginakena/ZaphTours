@@ -14,9 +14,9 @@ const About = () => {
           variant="h4"
           align="center"
           gutterBottom
-          sx={{ fontWeight: "bold", color: "#333" }}
+          sx={{ fontFamily: "Dancing Script", fontWeight: "800", fontSize: "70px", color: "black" }}
         >
-          About Zaph Tours
+          About Us
         </Typography>
         <Typography
           variant="body1"

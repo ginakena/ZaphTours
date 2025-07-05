@@ -59,7 +59,7 @@ const FeaturedDestinations = () => {
         variant="h4"
         align="center"
         gutterBottom
-        sx={{ fontWeight: "bold", mb: 4 }}
+        sx={{ fontFamily: "Dancing Script", fontWeight: "800", fontSize: "69px", mb: 4 }}
       >
         Featured Destinations
       </Typography>
@@ -70,7 +70,7 @@ const FeaturedDestinations = () => {
             <Card
               sx={{
                 height: "100%",
-                color: "#FB9A40",
+                backgroundColor: "#FFD586",
                 transition: "transform 0.3s ease, box-shadow 0.3s ease",
                 "&:hover": {
                   transform: "scale(1.03)",

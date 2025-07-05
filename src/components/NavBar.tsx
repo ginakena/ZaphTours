@@ -71,8 +71,7 @@ const NavBar = () => {
           </Box>
 
           {/* Navigation links */}
-         <Box sx={{ display: { xs: "none", md: "flex" }, gap: 2 }}>
-            {/* {["Home", "Destinations", "Trip Types", "Contact"].map((text) => ( */}
+         <Box sx={{ display: { xs: "none", md: "flex" }, gap: 2 }}>            
              {navLinks.map((link) => (
               <Button
                 key={link.label}

@@ -47,7 +47,7 @@ const Hero = () => {
       >
       <Typography
         variant="h2"
-        sx={{ fontWeight: "bold", mb: 2, textShadow: "2px 2px 4px #000" }}
+        sx={{ fontFamily: "Dancing Script", fontWeight: "950", fontSize: "80px", mb: 2, textShadow: "2px 2px 4px #000" }}
       >
         Explore The World With Us
       </Typography>
