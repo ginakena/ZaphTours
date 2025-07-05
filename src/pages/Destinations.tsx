@@ -8,7 +8,6 @@ import {
   CardContent,
   CardActions,
   Button,
-  Paper,
 } from "@mui/material";
 
 const destinations = [
@@ -56,28 +55,7 @@ function Destinations() {
         sx={{ color: "black", fontWeight: "bold", mb: 6 }}
       >
         Our Top Destinations
-      </Typography>
-
-      {/* <Paper sx={{ p: 5, backgroundColor: "#f5f0ff" }} variant="outlined">
-        <Typography
-          variant="h5"
-          align="center"
-          sx={{ color: "#471396", fontWeight: "bold", mb: 2 }}
-        >
-          Travel is the only thing you can buy that makes you richer.
-        </Typography>
-        <Typography align="center" sx={{ color: "#090040" }}>
-          Discover handpicked travel destinations for unforgettable memories.
-        </Typography>
-        <Box sx={{ display: "flex", justifyContent: "center", mt: 4 }}>
-          <Button
-            variant="contained"
-            sx={{ backgroundColor: "#B13BFF", color: "white", px: 4 }}
-          >
-            Let's Go!
-          </Button>
-        </Box>
-      </Paper> */}
+      </Typography>      
 
       <Box
         sx={{
