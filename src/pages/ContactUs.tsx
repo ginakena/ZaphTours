@@ -107,7 +107,7 @@ const ContactUs = () => {
         {/* Info Section */}
         <Grid item xs={12} md={6}>
           <Grid container spacing={2}>
-            {/* Get in Touch (Left Side) */}
+            {/* Get in Touch  */}
             <Grid item xs={12} md={6}>
               <Paper
                 sx={{
@@ -145,7 +145,7 @@ const ContactUs = () => {
               </Paper>
             </Grid>
 
-            {/* Find Us (Right Side) */}
+            {/* Find Us  */}
             <Grid item xs={12} md={6}>
               <Paper
                 sx={{
@@ -180,7 +180,7 @@ const ContactUs = () => {
               </Paper>
             </Grid>
 
-            {/* Office Hours (Full Width Below) */}
+            {/* Office Hours*/}
             <Grid item xs={12}>
               <Paper
                 sx={{
@@ -204,7 +204,7 @@ const ContactUs = () => {
               </Paper>
             </Grid>
 
-            {/* Social Links (Full Width Below) */}
+            {/* Social Links */}
             <Grid item xs={12}>
               <Paper
                 sx={{
