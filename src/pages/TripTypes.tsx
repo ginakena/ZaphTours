@@ -11,21 +11,7 @@ import {
 } from "@mui/material";
 
 
-const tripTypes = [
-  // {
-  //   title: "Honeymoon",
-  //   images: "/honeymoon.jpg", 
-  //   description:
-  //     "Perfect for newlyweds, this romantic getaway offers luxury, privacy, and unforgettable memories.",
-  //   price: "From KSH. 120,000",
-  // },
-  // {
-  //   title: "Family",
-  //   images: "/family.jpg", 
-  //   description:
-  //     "Fun-filled trips for all ages, including kid-friendly activities and family bonding experiences.",
-  //   price: "From KSH. 80,000",
-  // },
+const tripTypes = [ 
   {
     title: "Adventure",
     images: "/adventure.jpg", 
