@@ -9,6 +9,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
+import Footer1 from "../components/footer1";
 
 const destinations = [
   {
@@ -47,6 +48,7 @@ const destinations = [
 
 function Destinations() {
   return (
+    <>
     <Container sx={{ py: 8 }}>
       <Typography
         variant="h4"
@@ -136,8 +138,14 @@ function Destinations() {
             </CardContent>
           </Card>
         ))}
+       
       </Box>
+       
     </Container>
+
+    <Footer1 />
+    </>
+    
   );
 }
 

@@ -9,6 +9,7 @@ import {
   Button,
   CardMedia
 } from "@mui/material";
+import Footer1 from "../components/footer1";
 
 
 const tripTypes = [ 
@@ -72,6 +73,7 @@ const tripTypes = [
 
 const TripTypesPage = () => {
   return (
+    <>
     <Box sx={{ p: 8 }}>
       <Container>
         <Typography
@@ -116,6 +118,9 @@ const TripTypesPage = () => {
         </Grid>
       </Container>
     </Box>
+
+    <Footer1 />
+    </>
   );
 };
 

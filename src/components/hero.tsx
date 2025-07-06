@@ -58,9 +58,9 @@ const Hero = () => {
         Explore Kenya's natural beauty and rich culture with Zaph Tours.
       </Typography>
       <Button
-        variant="contained"
-        color="secondary"
+        variant="contained"        
         size="large"
+        sx={{backgroundColor: "#8A784E" }}
         onClick={() => navigate("/contact")}
       >
         Plan Your Trip

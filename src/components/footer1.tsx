@@ -5,20 +5,15 @@ import {
   Grid,
   Link,
   Stack,
-  Divider,
+ 
 } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link as RouterLink } from "react-router-dom";
-import NewsletterSignup from "../components/NewsLetter";
 
-const Footer = () => {
+const Footer1 = () => {
   return (
-    <Box sx={{ backgroundColor: "#E7EFC7", color: "black", pt: 4, pb: 2 }}>
-      {/* Newsletter embedded */}
-      <NewsletterSignup />
-
-      <Divider sx={{ backgroundColor: "#ffffff44", my: 4 }} />
+    <Box color="transparent" sx={{ backgroundColor: "#E7EFC7", color: "black", pt: 4, pb: 2 }}>    
 
       <Container>
         <Grid container spacing={4}>
@@ -102,7 +97,7 @@ const Footer = () => {
         <Typography
           variant="body2"
           align="center"
-          sx={{ mt: 4, fontSize: "0.5rem", color: "#ddd" }}
+          sx={{ mt: 4, fontSize: "0.875rem", color: "#ddd" }}
         >
           &copy; {new Date().getFullYear()} Zaph Tours. All rights reserved.
         </Typography>
@@ -111,4 +106,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer1;

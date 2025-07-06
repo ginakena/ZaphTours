@@ -17,6 +17,7 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
+import Footer1 from '../components/footer1';
 
 const officeHours = [
   { day: "Monday", hours: "9:00 AM - 1:00 PM" },
@@ -30,6 +31,7 @@ const officeHours = [
 
 const ContactUs = () => {
   return (
+    <>
     <Box
       sx={{
         px: { xs: 2, md: 8 },
@@ -234,6 +236,9 @@ const ContactUs = () => {
         </Grid>
       </Grid>
     </Box>
+
+    <Footer1 />
+    </>
   );
 };
 

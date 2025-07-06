@@ -41,7 +41,7 @@ const NavBar = () => {
     <AppBar position="absolute" 
     color="transparent" 
     sx={{ width: "100%",
-      backgroundColor: "#B13BFF",
+      backgroundColor: "#8A784E",
       boxShadow: "none",
       zIndex: 10,
      }}>

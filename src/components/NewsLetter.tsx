@@ -31,14 +31,14 @@ const NewsletterSignup = () => {
           <Typography
             variant="h4"
             align="center"
-            sx={{ fontWeight: "bold", mb: 2, color: "#fff" }}
+            sx={{ fontFamily: "Dancing Script", fontWeight: "600", fontSize: "40px", mb: 2, color: "black" }}
           >
             Join Our Newsletter
           </Typography>
           <Typography
             variant="body1"
             align="center"
-            sx={{ mb: 4, color: "#fff" }}
+            sx={{ mb: 4, color: "black" }}
           >
             Get weekly updates on safaris, adventures, and exclusive offers!
           </Typography>
