@@ -5,6 +5,8 @@ import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 
+const GridItem = Grid as React.ElementType;
+
 const destinations = [
   {
     title: "Mt. Kenya",
@@ -68,7 +70,7 @@ const FeaturedDestinations = () => {
       </Typography>
       <Grid container spacing={4} justifyContent="center" sx={{ px: 2 }}>
         {destinations.map((dest, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+          <GridItem xs={12} sm={6} md={4} key={index}>
             <Card
               sx={{
                 height: "100%",
@@ -99,7 +101,7 @@ const FeaturedDestinations = () => {
                 </Typography>
               </CardContent>
             </Card>
-          </Grid>
+          </GridItem>
         ))}
       </Grid>
     </Box>

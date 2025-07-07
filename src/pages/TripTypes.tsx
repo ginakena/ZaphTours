@@ -9,6 +9,9 @@ import Button from "@mui/material/Button";
 import CardMedia from "@mui/material/CardMedia";
 import Footer1 from "../components/footer1";
 
+
+const GridItem = Grid as React.ElementType;
+
 const tripTypes = [
   {
     title: "Adventure",
@@ -83,7 +86,7 @@ const TripTypesPage = () => {
 
           <Grid container spacing={4}>
             {tripTypes.map((trip, index) => (
-              <Grid item key={index} xs={12} sm={6} md={4} lg={3}>
+              <GridItem key={index} xs={12} sm={6} md={4} lg={3}>
                 <Card sx={{ height: "100%" }}>
                   <CardMedia
                     component="img"
@@ -112,7 +115,7 @@ const TripTypesPage = () => {
                     </Button>
                   </CardActions>
                 </Card>
-              </Grid>
+              </GridItem>
             ))}
           </Grid>
         </Container>

@@ -10,6 +10,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link as RouterLink } from "react-router-dom";
 import NewsletterSignup from "../components/NewsLetter";
 
+
+const GridItem = Grid as React.ElementType;
 const CustomRouterLink = RouterLink as React.ElementType;
 
 const Footer = () => {
@@ -23,17 +25,17 @@ const Footer = () => {
       <Container>
         <Grid container spacing={4}>
           {/* Branding */}
-          <Grid item xs={12} md={4}>
+          <GridItem xs={12} md={4}>
             <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
               Zaph Tours
             </Typography>
             <Typography variant="body2">
               Best Safaris and Adventures. Discover Kenya with us!
             </Typography>
-          </Grid>
+          </GridItem>
 
           {/* Quick Links */}
-          <Grid item xs={12} md={4}>
+          <GridItem xs={12} md={4}>
             <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
               Quick Links
             </Typography>
@@ -51,10 +53,10 @@ const Footer = () => {
                 Contact
               </Link>
             </Stack>
-          </Grid>
+          </GridItem>
 
           {/* Socials */}
-          <Grid item xs={12} md={4}>
+          <GridItem xs={12} md={4}>
             <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
               Connect With Us
             </Typography>
@@ -76,7 +78,7 @@ const Footer = () => {
                 <GitHubIcon />
               </Link>
             </Stack>
-          </Grid>
+          </GridItem>
         </Grid>
 
         <Typography
