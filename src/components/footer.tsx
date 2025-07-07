@@ -39,7 +39,7 @@ const Footer = () => {
             </Typography>
             <Stack spacing={1}>
               <Link
-                component={RouterLink}
+                component={RouterLink as any}
                 to="/"
                 underline="hover"
                 color="inherit"
@@ -47,7 +47,7 @@ const Footer = () => {
                 Home
               </Link>
               <Link
-                component={RouterLink}
+                component={RouterLink as any}
                 to="/destinations"
                 underline="hover"
                 color="inherit"
@@ -55,7 +55,7 @@ const Footer = () => {
                 Destinations
               </Link>
               <Link
-                component={RouterLink}
+                component={RouterLink as any}
                 to="/trip-types"
                 underline="hover"
                 color="inherit"
@@ -63,7 +63,7 @@ const Footer = () => {
                 Trip Types
               </Link>
               <Link
-                component={RouterLink}
+                component={RouterLink as any}
                 to="/contact"
                 underline="hover"
                 color="inherit"

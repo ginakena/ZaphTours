@@ -24,7 +24,7 @@ const destinations = [
   },
   {
     title: "Lake Nakuru",
-    image:"/lake-nakuru.jpg",
+    image: "/lake-nakuru.jpg",
     description:
       "Famous for its flamingos and rhino sanctuary, this lake is a birdwatcher’s paradise.",
     price: "From KSH.24,000",
@@ -59,12 +59,16 @@ const FeaturedDestinations = () => {
         variant="h4"
         align="center"
         gutterBottom
-        sx={{ fontFamily: "Dancing Script", fontWeight: "800", fontSize: "69px", mb: 4 }}
+        sx={{
+          fontFamily: "Dancing Script",
+          fontWeight: "800",
+          fontSize: "69px",
+          mb: 4,
+        }}
       >
         Featured Destinations
       </Typography>
-
-      <Grid container spacing={4} justifyContent="center" px={2}>
+      <Grid container spacing={4} justifyContent="center" sx={{ px: 2 }}>
         {destinations.map((dest, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <Card
@@ -76,7 +80,6 @@ const FeaturedDestinations = () => {
                   transform: "scale(1.03)",
                   boxShadow: 6,
                   cursor: "pointer",
-                  
                 },
               }}
             >
