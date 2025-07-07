@@ -1,12 +1,10 @@
 import {
   Box,
-  Container,
-  Grid,
+  Container,  
   Typography,
   Card,
   CardMedia,
   CardContent,
-  CardActions,
   Button,
 } from "@mui/material";
 import Footer1 from "../components/footer1";

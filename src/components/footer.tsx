@@ -1,16 +1,16 @@
-import {
-  Box,
-  Container,
-  Typography,
-  Grid,
-  Link,
-  Stack,
-  Divider,
-} from "@mui/material";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
+import Grid from "@mui/material/Grid";
+import Link from "@mui/material/Link";
+import Stack from "@mui/material/Stack";
+import Divider from "@mui/material/Divider";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Link as RouterLink } from "react-router-dom";
 import NewsletterSignup from "../components/NewsLetter";
+
+const CustomRouterLink = RouterLink as React.ElementType;
 
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
               Zaph Tours
             </Typography>
             <Typography variant="body2">
-              Best Safaris and Adventures.  Discover Kenya with us!
+              Best Safaris and Adventures. Discover Kenya with us!
             </Typography>
           </Grid>
 
@@ -38,36 +38,16 @@ const Footer = () => {
               Quick Links
             </Typography>
             <Stack spacing={1}>
-              <Link
-                component={RouterLink as any}
-                to="/"
-                underline="hover"
-                color="inherit"
-              >
+              <Link component={CustomRouterLink} to="/" underline="hover" color="inherit">
                 Home
               </Link>
-              <Link
-                component={RouterLink as any}
-                to="/destinations"
-                underline="hover"
-                color="inherit"
-              >
+              <Link component={CustomRouterLink} to="/destinations" underline="hover" color="inherit">
                 Destinations
               </Link>
-              <Link
-                component={RouterLink as any}
-                to="/trip-types"
-                underline="hover"
-                color="inherit"
-              >
+              <Link component={CustomRouterLink} to="/trip-types" underline="hover" color="inherit">
                 Trip Types
               </Link>
-              <Link
-                component={RouterLink as any}
-                to="/contact"
-                underline="hover"
-                color="inherit"
-              >
+              <Link component={CustomRouterLink} to="/contact" underline="hover" color="inherit">
                 Contact
               </Link>
             </Stack>

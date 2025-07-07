@@ -4,27 +4,26 @@ import AddLocationAltIcon from '@mui/icons-material/AddLocationAlt';
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import XIcon from '@mui/icons-material/X';
-import {
-  Box,
-  Grid,
-  Typography,
-  TextField,
-  Button,
-  Paper,
-  IconButton,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-} from "@mui/material";
+import Box from "@mui/material/Box";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import Paper from "@mui/material/Paper";
+import IconButton from "@mui/material/IconButton";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import ListItemIcon from "@mui/material/ListItemIcon";
 import Footer1 from '../components/footer1';
+
 
 const officeHours = [
   { day: "Monday", hours: "9:00 AM - 1:00 PM" },
   { day: "Tuesday", hours: "9:00 AM - 5:00 PM" },
   { day: "Wednesday", hours: "9:00 AM - 1:00 PM" },
   { day: "Thursday", hours: "9:00 AM - 5:00 PM" },
-  { day: "Friday", hours: "9:00 AM - :00 PM" },
+  { day: "Friday", hours: "9:00 AM - 5:00 PM" },
   { day: "Saturday", hours: "9:00 AM - 4:00 PM" },
   { day: "Sunday", hours: "Open from 2:00 PM - 5:00 PM" },
 ];
